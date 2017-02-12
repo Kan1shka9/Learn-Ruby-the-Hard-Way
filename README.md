@@ -1,2 +1,2 @@
 # Learn-Ruby-the-Hard-Way
-A sincere attempt
+This repo contains code and exercise solutions from the book https://learnrubythehardway.org/book/ written by Zed Shaw
