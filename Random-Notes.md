@@ -1,4 +1,4 @@
-#### Setup
+#### Notes
 
 ###### Install Ruby
 
