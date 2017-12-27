@@ -1,7 +1,7 @@
-puts "Mary had a little lamb."
-puts "Its fleece was white as #{'snow'}."
+puts "Mary has a little lamb."
+puts "Its fleece was white as #{'snow'}"
 puts "And everywhere that Mary went."
-puts "." * 10  # what'd that do?
+puts "." * 10 # What'd that do?
 
 end1 = "C"
 end2 = "h"
@@ -16,18 +16,11 @@ end10 = "g"
 end11 = "e"
 end12 = "r"
 
-# watch that print vs. puts on this line what's it do?
+# Watch that print vs. puts on this line what's it do?
+# print -> no new line
+# puts -> new line
 print end1 + end2 + end3 + end4 + end5 + end6
 puts end7 + end8 + end9 + end10 + end11 + end12
 
-=begin
-Can I use single-quotes or double-quotes to make a string or do they do different things?
-In Ruby the " (double-quote) tell Ruby to replace variables it finds with #{}, but the ' (single-quote) tells Ruby to leave the string alone and ignore any variables inside it.
-=end
-my_test = 90
-puts "This is a test variable with double quotes : #{my_test}"
-puts 'This is a test variable with single quotes: #{my_test}'
-=begin
-This is a test variable with double quotes : 90
-This is a test variable with single quotes: #{my_test}
-=end
+# " (double-quote) tells Ruby to replace variables it finds with #{}
+# ' (single-quote) tells Ruby to leave the string alone and ignore any variables inside #{}
